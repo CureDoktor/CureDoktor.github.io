@@ -167,7 +167,7 @@ body {
   position: relative;
 }
 .nav_bar {
-  max-width: 1360px;
+  max-width: 1350px;
   margin: auto;
   width: 80%;
 }
@@ -270,9 +270,9 @@ body {
 
 .bottleAndBox {
   position: relative;
-  width: 55%;
+  width: 65%;
   float: right;
-  bottom: 20vh;
+  bottom: 200px;
   display: inline-block;
   max-width: auto;
 }
@@ -430,7 +430,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 10rem;
-  padding-top: 0px;
+  padding-top: 60px;
   margin: auto;
 }
 .reasons {
@@ -451,7 +451,7 @@ body {
 }
 .second_field_2 {
   display: flex;
-  height: 100%;
+  height: 80%;
   width: 90%;
   justify-content: space-between;
   align-items: center;
@@ -1156,6 +1156,7 @@ body {
   padding-top: 5rem;
   text-align: center;
   width: 55%;
+  max-width: 900px;
   margin: auto;
 }
 .sixth_field_header1 {
@@ -1666,11 +1667,17 @@ body {
 }
 @media screen and (max-width: 500px) {
   .eight_field_header {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
   }
   .eight_field {
     height: 1300px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .eight_field_header {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 }
 @media screen and (max-width: 430px) {
@@ -1686,7 +1693,7 @@ body {
 
 .nine_field {
   width: 100%;
-  height: 1272px;
+  height: 1100px;
   background-image: url("/Job 2/Images/rhino/nineFieldBackground.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -1751,7 +1758,7 @@ body {
   background-color: #b64a01;
   opacity: 0.8;
   position: absolute;
-  margin-top: 1000px;
+  margin-top: 850px;
   text-align: center;
 }
 .nine_field_under_text {
@@ -1766,7 +1773,7 @@ body {
   width: 100%;
   height: 186px;
   position: absolute;
-  margin-top: 1093px;
+  margin-top: 920px;
 }
 @media screen and (max-width: 350px) {
   .nine_field_under_text {
@@ -1847,8 +1854,8 @@ body {
     float: none;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 450px;
-    width: 50%;
+    margin-top: 350px;
+    width: 40%;
   }
   .nine_field_text {
     margin-left: 15%;
@@ -1858,7 +1865,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .bottleFieldNine {
-    margin-top: 600px;
+    margin-top: 500px;
   }
 }
 @media screen and (max-width: 380px) {
@@ -1871,7 +1878,7 @@ body {
     flex-direction: column;
   }
   .nine_field {
-    height: 1640px;
+    height: 1450px;
   }
   .nine_field_under1 {
     height: 550px;
@@ -1880,15 +1887,19 @@ body {
     width: 50%;
   }
   .container92 {
+    margin-top: 10px;
     width: 50%;
   }
   .container93 {
+    margin-top: 10px;
     width: 50%;
   }
   .container94 {
+    margin-top: 10px;
     width: 50%;
   }
   .container95 {
+    margin-top: 10px;
     width: 50%;
   }
 }
@@ -1913,18 +1924,18 @@ body {
     line-height: 2rem;
   }
   .nine_field_text3 {
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .nine_field_text {
     margin-top: 50px;
   }
   .nine_field_text4 {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   .bottleFieldNine {
     width: 60%;
     margin-left: 20%;
-    margin-top: 550px;
+    margin-top: 430px;
   }
   .container91 {
     margin-top: 10px;
@@ -1945,7 +1956,29 @@ body {
     height: 670px;
   }
   .nine_field {
-    height: 1760px;
+    height: 1590px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .bottleFieldNine {
+    margin-top: 500px;
+  }
+  .nine_field_text1 {
+    font-size: 1.5rem;
+  }
+  .nine_field_text2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 630px) {
+  .bottleFieldNine {
+    margin-top: 500px;
+  }
+}
+@media screen and (max-width: 617px) {
+  .nine_field_under {
+    margin-top: 830px;
   }
 }
 .ten_field {
@@ -2147,7 +2180,8 @@ body {
 .eleven_field_text2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-right: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
   color: #ffffff;
   font-weight: 400;
   font-family: "Montserrat";
@@ -2157,7 +2191,8 @@ body {
 .eleven_field_text3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  margin-right: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
   color: #ffffff;
   font-weight: 400;
   font-family: "Montserrat";
@@ -2271,6 +2306,9 @@ body {
     font-size: 3.5rem;
     line-height: 3.5rem;
   }
+  .twelve_field {
+    background-image: none;
+  }
 }
 
 .last_field {
@@ -2288,7 +2326,7 @@ body {
   max-width: 1300px;
 }
 .bottleBox {
-  width: 500px;
+  width: 700px;
   height: auto;
   float: right;
   margin-top: 10vh;
@@ -2353,7 +2391,8 @@ body {
 }
 .orderNow {
   margin-top: 2vh;
-  width: 28%;
+  width: 40%;
+  height: 60px;
   border-radius: 3rem;
   margin-left: -26vh;
   filter: drop-shadow(12.313px 15.76px 13.5px rgba(0, 0, 0, 0.34));
@@ -2372,6 +2411,11 @@ body {
     width: 350px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .bottleBox {
+    width: 500px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .last_field_picture {
     width: 100%;
@@ -2379,6 +2423,7 @@ body {
   }
   .bottleBox {
     float: none;
+
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -2432,7 +2477,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   .bottleBox {
-    width: 150%;
+    width: 130%;
   }
 }
 .last_field_footer {
@@ -2472,5 +2517,184 @@ body {
   .orderNow {
     width: 70%;
     margin-left: 15%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .first_field_text11 {
+    margin-top: 5px;
+  }
+  .first_field_wrapper {
+    margin-top: 20px;
+  }
+  .first_field {
+    background-color: #1a1e26;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+  }
+  .third_field_1 {
+    position: relative;
+    margin: auto;
+    max-width: 600px;
+  }
+  .container4 {
+    width: 550px;
+    height: 850px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -100px;
+  }
+  .third_field_background {
+    background-color: white;
+    width: 50%;
+    height: 1100px;
+    position: absolute;
+    z-index: 0;
+  }
+  .section2 {
+    margin-left: -75%;
+    width: 100%;
+  }
+  .third_field_1 {
+    width: 30%;
+  }
+  .shop_button {
+    top: 66px;
+    height: 45px;
+  }
+  .menu_button {
+    top: 66px;
+    height: 45px;
+  }
+  .logo {
+    top: 55px;
+  }
+  .bottleAndBox {
+    width: 800px;
+  }
+  .rectangle {
+    margin-bottom: 12px;
+  }
+  .section3_text {
+    padding-top: 20px;
+  }
+  .fourth_field_header {
+    padding-top: 55px;
+    margin-bottom: 55px;
+  }
+  .flex-container {
+    max-width: 1000px;
+  }
+  .fifth_field_bottle {
+    bottom: 40px;
+  }
+  .fourth_rectangle_text1 {
+    margin-top: 55px;
+  }
+  .container6 {
+    max-width: 1200px;
+    margin-top: 66px;
+  }
+  .seven_field_header {
+    padding-top: 88px;
+    margin: auto;
+  }
+  .seven_field_field {
+    margin-top: 88px;
+    max-width: 1100px;
+  }
+  .eight_field_text {
+    padding-top: 170px;
+    height: 110px;
+  }
+  .eight_field_picture {
+    height: 1400px;
+    margin-left: 15%;
+    margin-top: -55px;
+  }
+  .nine_field_text {
+    height: 600px;
+    margin-top: 270px;
+  }
+  .bottleFieldNine {
+    margin-top: 165px;
+    margin-right: 100px;
+  }
+  .nine_field_text3 {
+    width: 100%;
+  }
+  .nine_field_text4 {
+    width: 100%;
+  }
+  .nine_field_image {
+    height: 880px;
+  }
+  .first_field_wrapper img {
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .click_me {
+    margin-top: 33px;
+  }
+  .nine_field_text {
+    width: 450px;
+  }
+  .nine_field_under_text {
+    padding-top: 24px;
+  }
+  .container9 {
+    margin-top: 33px;
+  }
+  .ten_field_header {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .eleven_field_text {
+    height: 50px;
+    margin-top: 170px;
+  }
+  .eleven_field_text2 {
+    margin-left: 0%;
+  }
+  .eleven_field_text3 {
+    margin-left: 0%;
+  }
+  .eleven_field_picture {
+    padding-top: 70px;
+  }
+  .fifth_field {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    background-color: #19202f;
+  }
+  .twelve_field_text {
+    margin-top: 55px;
+    height: 800px;
+    width: 500px;
+  }
+  .twelve_field {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px 100%;
+  }
+  .nine_field {
+    background-color: #f2d23a;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+  }
+  .last_field_text {
+    margin-top: 110px;
+  }
+  .bottleBox {
+    margin-top: 110px;
+  }
+  .last_field_text {
+    width: 650px;
+  }
+  .orderNow {
+    margin-left: -250px;
+    margin-top: 22px;
   }
 }
