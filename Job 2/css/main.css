@@ -298,6 +298,12 @@ body {
   text-align: center;
   outline: 0;
 }
+.click_me:active {
+  transform: translateY(4px);
+}
+.click_me:hover {
+  cursor: pointer;
+}
 .menu_button {
   position: relative;
   float: right;
@@ -307,6 +313,12 @@ body {
   background-color: transparent;
   border: none;
   outline: 0;
+}
+.menu_button:active {
+  transform: translateY(4px);
+}
+.menu_button:hover {
+  cursor: pointer;
 }
 .shop_button {
   position: relative;
@@ -318,6 +330,12 @@ body {
   background-color: transparent;
   border: none;
   outline: 0;
+}
+.shop_button:active {
+  transform: translateY(4px);
+}
+.shop_button:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 970px) {
   .first_field_wrapper {
@@ -537,6 +555,9 @@ body {
   .second_field {
     height: 1350px;
   }
+  .second_field_text {
+    padding-top: 10px;
+  }
 }
 @media screen and (max-width: 630px) {
   .second_field {
@@ -546,6 +567,10 @@ body {
 @media screen and (max-width: 500px) {
   .second_field {
     height: 1000px;
+  }
+  .second_field_21 p {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -576,6 +601,7 @@ body {
   }
   .second_field_text {
     height: 6rem;
+    padding-top: 10px;
   }
   .second_field {
     height: 900px;
@@ -1379,6 +1405,12 @@ body {
   font-weight: 600;
   outline: 0;
 }
+.button1:active {
+  transform: translateY(4px);
+}
+.button1:hover {
+  cursor: pointer;
+}
 .button2 {
   margin-left: 0.5rem;
   width: 45px;
@@ -1389,6 +1421,12 @@ body {
   font-size: 1rem;
   font-weight: 600;
   outline: 0;
+}
+.button2:active {
+  transform: translateY(4px);
+}
+.button2:hover {
+  cursor: pointer;
 }
 .seven_field_text_footer1 {
   float: right;
@@ -1628,6 +1666,19 @@ body {
   font-family: "Montserrat";
   font-size: 0.8rem;
   line-height: 1.2rem;
+  margin-top: 15px;
+}
+.eight_field_icon_text1 {
+  margin-left: 25px;
+}
+.eight_field_icon_text2 {
+  margin-left: 25px;
+}
+.eight_field_icon_text3 {
+  margin-left: 25px;
+}
+.eight_field_icon_text4 {
+  margin-left: 25px;
 }
 .eight_field_picture {
   width: 28%;
@@ -2403,6 +2454,12 @@ body {
   font-weight: 500;
   outline: 0;
 }
+.orderNow:active {
+  transform: translateY(4px);
+}
+.orderNow:hover {
+  cursor: pointer;
+}
 @media screen and (max-width: 1150px) {
   .last_field_text {
     width: 60%;
@@ -2697,4 +2754,40 @@ body {
     margin-left: -250px;
     margin-top: 22px;
   }
+}
+#div2 {
+  display: none;
+}
+#div3 {
+  display: none;
+}
+#div4 {
+  display: none;
+}
+#text2 {
+  display: none;
+}
+#text3 {
+  display: none;
+}
+#text4 {
+  display: none;
+}
+#name2 {
+  display: none;
+}
+#name3 {
+  display: none;
+}
+#name4 {
+  display: none;
+}
+#picture2 {
+  display: none;
+}
+#picture3 {
+  display: none;
+}
+#picture4 {
+  display: none;
 }
